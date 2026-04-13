@@ -52,7 +52,7 @@ Source: Kaggle Heart Failure Prediction Dataset
 
 ## Results
 
-- Accuracy: ~83%  
+- Accuracy: ~85%  
 - Model successfully identifies patients at risk of heart disease  
 - Most important features include:
   - ST_Slope

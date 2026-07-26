@@ -20,7 +20,6 @@ Target variable:
 - `HeartDisease` (1 = disease, 0 = healthy)
 
 Source: Kaggle Heart Failure Prediction Dataset  
-:contentReference[oaicite:0]{index=0}
 
 ---
 

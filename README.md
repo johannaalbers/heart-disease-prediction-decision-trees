@@ -67,6 +67,12 @@ Source: Kaggle Heart Failure Prediction Dataset
 
 ---
 
+## Reproducing this analysis
+
+pip install -r requirements.txt
+
+---
+
 ## Tech Stack
 
 - Python

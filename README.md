@@ -35,7 +35,7 @@ Source: Kaggle Heart Failure Prediction Dataset
 ### 2. Model
 - Decision Tree Classifier
 - Criterion: Entropy
-- Max depth: 2
+- Max depth: 2 (first model), then 4 with balanced class weights (final model)
 
 ### 3. Evaluation
 - Accuracy
@@ -51,8 +51,8 @@ Source: Kaggle Heart Failure Prediction Dataset
 
 ## Results
 
-- Accuracy: ~85%  
-- Model successfully identifies patients at risk of heart disease  
+- Accuracy on the 20% test set: 0.83 (depth 2), 0.85 (depth 4, balanced)  
+- Precision, recall, F1 and ROC were not computed in this notebook
 - Most important features include:
   - ST_Slope
   - ChestPainType
